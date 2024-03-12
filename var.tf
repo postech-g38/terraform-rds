@@ -17,27 +17,8 @@ variable "awsRegion" {
   description = "value"
 }
 
-variable "vpcId" {
-  type        = string
-  default     = "value"
-  description = "value"
-}
-
-variable "subnetIds" {
-  type        = list(string)
-  default     = ["value"]
-  description = "value"
-}
-
 variable "rdsName" {
   type        = string
-  default     = "BiteByteGo"
+  default     = "ByteBiteGo"
   description = "value"
-}
-
-variable "tags" {
-  type = map(string)
-  default = {
-    "name" = "value"
-  }
 }
