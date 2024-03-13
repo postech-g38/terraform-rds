@@ -24,6 +24,5 @@ resource "aws_db_instance" "prd-rds2" {
 
   username = "postgres"
   manage_master_user_password   = true # create credentials and send to secrets manager
-  # master_user_secret_kms_key_id = aws_kms_key.example.key_id
 }
 

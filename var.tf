@@ -19,6 +19,6 @@ variable "awsRegion" {
 
 variable "rdsName" {
   type        = string
-  default     = "BiteByteGo"
+  default     = "ByteBiteGo"
   description = "value"
 }
