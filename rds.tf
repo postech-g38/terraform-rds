@@ -7,7 +7,7 @@ resource "aws_db_instance" "prd-rds2" {
   max_allocated_storage = 40 # in GB
   multi_az              = false
 
-  db_name        = "bitebyteBurguers"
+  db_name        = var.rdsName
   engine         = "postgres"
   engine_version = "15.6"
   # parameter_group_name = ""
