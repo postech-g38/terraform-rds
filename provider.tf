@@ -9,12 +9,12 @@ terraform {
   backend "s3" {
     bucket = "postech-g38-rds-terraform"
     key    = "terraform.tfstate" # file path where the file will be saved
-    region = "us-east-2"  # aws s3 create region
+    region = "us-west-2"  # aws s3 create region
   }
 }
 
 provider "aws" {
-  region  = "us-east-2"
+  region  = "us-west-2"
 }
 
 
