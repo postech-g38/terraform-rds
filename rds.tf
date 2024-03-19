@@ -24,5 +24,6 @@ resource "aws_db_instance" "prd-rds2" {
 
   username = "postgres"
   manage_master_user_password   = true # create credentials and send to secrets manager
+  publicly_accessible = true
 }
 
